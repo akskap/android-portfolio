@@ -3,65 +3,46 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="#303030"
+    android:background="@color/app_background"
     >
 
     <TextView
-        android:text="My Awesome Apps !"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:text="@string/heading_text"
         style="@style/HeadingText"
-
         />
-
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Spotify Streamer"
+        android:text="@string/spotify_app_name"
         android:onClick="showNotification"
         android:tag="Spotify"
         style="@style/AppLinks"/>
-
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Scores App"
+        android:text="@string/scores_app_name"
         android:onClick="showNotification"
         android:tag="Scores"
         style="@style/AppLinks"/>
-
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="Library App"
         android:onClick="showNotification"
         android:tag="Library"
         style="@style/AppLinks"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Build it bigger"
+        android:text="@string/built_it_bigger_app_name"
         android:onClick="showNotification"
         android:tag="Build it"
         style="@style/AppLinks"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bacon Reader"
+        android:text="@string/bacon_app_name"
         android:onClick="showNotification"
         android:tag="Bacon Reader"
         style="@style/AppLinks"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Capstone: My Own App"
+        android:text="@string/capstone_app_name"
         android:onClick="showNotification"
         android:tag="Capstone"
-        android:background="#FF3F80"
+        android:background="@color/capstone_btn_bg"
         style="@style/AppLinks"/>
-
 
 </LinearLayout>

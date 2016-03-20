@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="app_background" type="color">#303030</item>
+    <item name="capstone_btn_bg" type="color">#FF3F80</item>
+</resources>
