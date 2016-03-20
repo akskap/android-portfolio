@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#303030"
+    >
+
+    <TextView
+        android:text="My Awesome Apps !"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/HeadingText"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spotify Streamer"
+        android:onClick="showNotification"
+        android:tag="Spotify"
+        style="@style/AppLinks"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scores App"
+        android:onClick="showNotification"
+        android:tag="Scores"
+        style="@style/AppLinks"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Library App"
+        android:onClick="showNotification"
+        android:tag="Library"
+        style="@style/AppLinks"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Build it bigger"
+        android:onClick="showNotification"
+        android:tag="Build it"
+        style="@style/AppLinks"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bacon Reader"
+        android:onClick="showNotification"
+        android:tag="Bacon Reader"
+        style="@style/AppLinks"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capstone: My Own App"
+        android:onClick="showNotification"
+        android:tag="Capstone"
+        android:background="#FF3F80"
+        style="@style/AppLinks"/>
+
+
+</LinearLayout>
